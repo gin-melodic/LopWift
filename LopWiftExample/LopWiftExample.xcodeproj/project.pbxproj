@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38CA51351CA187A000C3EFC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA51341CA187A000C3EFC3 /* AppDelegate.swift */; };
+		38CA51371CA187A000C3EFC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA51361CA187A000C3EFC3 /* ViewController.swift */; };
+		38CA513A1CA187A000C3EFC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CA51381CA187A000C3EFC3 /* Main.storyboard */; };
+		38CA513C1CA187A000C3EFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CA513B1CA187A000C3EFC3 /* Assets.xcassets */; };
+		38CA513F1CA187A000C3EFC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CA513D1CA187A000C3EFC3 /* LaunchScreen.storyboard */; };
+		38CA514A1CA187A000C3EFC3 /* LopWiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA51491CA187A000C3EFC3 /* LopWiftExampleTests.swift */; };
+		38CA51551CA187A000C3EFC3 /* LopWiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA51541CA187A000C3EFC3 /* LopWiftExampleUITests.swift */; };
+		38CA51641CA187C300C3EFC3 /* AssociatedWarp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA51631CA187C300C3EFC3 /* AssociatedWarp.swift */; };
+		38CA51681CA1897700C3EFC3 /* LWViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA51671CA1897700C3EFC3 /* LWViewProtocol.swift */; };
+		38CA516A1CA189AE00C3EFC3 /* LWViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CA51691CA189AE00C3EFC3 /* LWViewModelProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38CA51461CA187A000C3EFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CA51291CA187A000C3EFC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CA51301CA187A000C3EFC3;
+			remoteInfo = LopWiftExample;
+		};
+		38CA51511CA187A000C3EFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CA51291CA187A000C3EFC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CA51301CA187A000C3EFC3;
+			remoteInfo = LopWiftExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38CA51311CA187A000C3EFC3 /* LopWiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LopWiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CA51341CA187A000C3EFC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38CA51361CA187A000C3EFC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38CA51391CA187A000C3EFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38CA513B1CA187A000C3EFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CA513E1CA187A000C3EFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38CA51401CA187A000C3EFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CA51451CA187A000C3EFC3 /* LopWiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LopWiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CA51491CA187A000C3EFC3 /* LopWiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LopWiftExampleTests.swift; sourceTree = "<group>"; };
+		38CA514B1CA187A000C3EFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CA51501CA187A000C3EFC3 /* LopWiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LopWiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CA51541CA187A000C3EFC3 /* LopWiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LopWiftExampleUITests.swift; sourceTree = "<group>"; };
+		38CA51561CA187A000C3EFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CA51631CA187C300C3EFC3 /* AssociatedWarp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssociatedWarp.swift; path = ../../AboutProtocolExtension/AssociatedWarp.swift; sourceTree = "<group>"; };
+		38CA51671CA1897700C3EFC3 /* LWViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LWViewProtocol.swift; path = "../../MVVM-Protocol-Oriented/LWViewProtocol.swift"; sourceTree = "<group>"; };
+		38CA51691CA189AE00C3EFC3 /* LWViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LWViewModelProtocol.swift; path = "../../MVVM-Protocol-Oriented/LWViewModelProtocol.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38CA512E1CA187A000C3EFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CA51421CA187A000C3EFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CA514D1CA187A000C3EFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38CA51281CA187A000C3EFC3 = {
+			isa = PBXGroup;
+			children = (
+				38CA51331CA187A000C3EFC3 /* LopWiftExample */,
+				38CA51481CA187A000C3EFC3 /* LopWiftExampleTests */,
+				38CA51531CA187A000C3EFC3 /* LopWiftExampleUITests */,
+				38CA51321CA187A000C3EFC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38CA51321CA187A000C3EFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CA51311CA187A000C3EFC3 /* LopWiftExample.app */,
+				38CA51451CA187A000C3EFC3 /* LopWiftExampleTests.xctest */,
+				38CA51501CA187A000C3EFC3 /* LopWiftExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CA51331CA187A000C3EFC3 /* LopWiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				38CA51651CA1891500C3EFC3 /* MVVM-Protocol-Oriented */,
+				38CA51621CA187A800C3EFC3 /* AboutProtocolExtension */,
+				38CA51341CA187A000C3EFC3 /* AppDelegate.swift */,
+				38CA51361CA187A000C3EFC3 /* ViewController.swift */,
+				38CA51381CA187A000C3EFC3 /* Main.storyboard */,
+				38CA513B1CA187A000C3EFC3 /* Assets.xcassets */,
+				38CA513D1CA187A000C3EFC3 /* LaunchScreen.storyboard */,
+				38CA51401CA187A000C3EFC3 /* Info.plist */,
+			);
+			path = LopWiftExample;
+			sourceTree = "<group>";
+		};
+		38CA51481CA187A000C3EFC3 /* LopWiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				38CA51491CA187A000C3EFC3 /* LopWiftExampleTests.swift */,
+				38CA514B1CA187A000C3EFC3 /* Info.plist */,
+			);
+			path = LopWiftExampleTests;
+			sourceTree = "<group>";
+		};
+		38CA51531CA187A000C3EFC3 /* LopWiftExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38CA51541CA187A000C3EFC3 /* LopWiftExampleUITests.swift */,
+				38CA51561CA187A000C3EFC3 /* Info.plist */,
+			);
+			path = LopWiftExampleUITests;
+			sourceTree = "<group>";
+		};
+		38CA51621CA187A800C3EFC3 /* AboutProtocolExtension */ = {
+			isa = PBXGroup;
+			children = (
+				38CA51631CA187C300C3EFC3 /* AssociatedWarp.swift */,
+			);
+			name = AboutProtocolExtension;
+			sourceTree = "<group>";
+		};
+		38CA51651CA1891500C3EFC3 /* MVVM-Protocol-Oriented */ = {
+			isa = PBXGroup;
+			children = (
+				38CA51671CA1897700C3EFC3 /* LWViewProtocol.swift */,
+				38CA51691CA189AE00C3EFC3 /* LWViewModelProtocol.swift */,
+			);
+			name = "MVVM-Protocol-Oriented";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38CA51301CA187A000C3EFC3 /* LopWiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CA51591CA187A000C3EFC3 /* Build configuration list for PBXNativeTarget "LopWiftExample" */;
+			buildPhases = (
+				38CA512D1CA187A000C3EFC3 /* Sources */,
+				38CA512E1CA187A000C3EFC3 /* Frameworks */,
+				38CA512F1CA187A000C3EFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LopWiftExample;
+			productName = LopWiftExample;
+			productReference = 38CA51311CA187A000C3EFC3 /* LopWiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38CA51441CA187A000C3EFC3 /* LopWiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CA515C1CA187A000C3EFC3 /* Build configuration list for PBXNativeTarget "LopWiftExampleTests" */;
+			buildPhases = (
+				38CA51411CA187A000C3EFC3 /* Sources */,
+				38CA51421CA187A000C3EFC3 /* Frameworks */,
+				38CA51431CA187A000C3EFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CA51471CA187A000C3EFC3 /* PBXTargetDependency */,
+			);
+			name = LopWiftExampleTests;
+			productName = LopWiftExampleTests;
+			productReference = 38CA51451CA187A000C3EFC3 /* LopWiftExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38CA514F1CA187A000C3EFC3 /* LopWiftExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CA515F1CA187A000C3EFC3 /* Build configuration list for PBXNativeTarget "LopWiftExampleUITests" */;
+			buildPhases = (
+				38CA514C1CA187A000C3EFC3 /* Sources */,
+				38CA514D1CA187A000C3EFC3 /* Frameworks */,
+				38CA514E1CA187A000C3EFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CA51521CA187A000C3EFC3 /* PBXTargetDependency */,
+			);
+			name = LopWiftExampleUITests;
+			productName = LopWiftExampleUITests;
+			productReference = 38CA51501CA187A000C3EFC3 /* LopWiftExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38CA51291CA187A000C3EFC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LW;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = antinomy;
+				TargetAttributes = {
+					38CA51301CA187A000C3EFC3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					38CA51441CA187A000C3EFC3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 38CA51301CA187A000C3EFC3;
+					};
+					38CA514F1CA187A000C3EFC3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 38CA51301CA187A000C3EFC3;
+					};
+				};
+			};
+			buildConfigurationList = 38CA512C1CA187A000C3EFC3 /* Build configuration list for PBXProject "LopWiftExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38CA51281CA187A000C3EFC3;
+			productRefGroup = 38CA51321CA187A000C3EFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CA51301CA187A000C3EFC3 /* LopWiftExample */,
+				38CA51441CA187A000C3EFC3 /* LopWiftExampleTests */,
+				38CA514F1CA187A000C3EFC3 /* LopWiftExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38CA512F1CA187A000C3EFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CA513F1CA187A000C3EFC3 /* LaunchScreen.storyboard in Resources */,
+				38CA513C1CA187A000C3EFC3 /* Assets.xcassets in Resources */,
+				38CA513A1CA187A000C3EFC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CA51431CA187A000C3EFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CA514E1CA187A000C3EFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38CA512D1CA187A000C3EFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CA51641CA187C300C3EFC3 /* AssociatedWarp.swift in Sources */,
+				38CA51371CA187A000C3EFC3 /* ViewController.swift in Sources */,
+				38CA51351CA187A000C3EFC3 /* AppDelegate.swift in Sources */,
+				38CA51681CA1897700C3EFC3 /* LWViewProtocol.swift in Sources */,
+				38CA516A1CA189AE00C3EFC3 /* LWViewModelProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CA51411CA187A000C3EFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CA514A1CA187A000C3EFC3 /* LopWiftExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CA514C1CA187A000C3EFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CA51551CA187A000C3EFC3 /* LopWiftExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38CA51471CA187A000C3EFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CA51301CA187A000C3EFC3 /* LopWiftExample */;
+			targetProxy = 38CA51461CA187A000C3EFC3 /* PBXContainerItemProxy */;
+		};
+		38CA51521CA187A000C3EFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CA51301CA187A000C3EFC3 /* LopWiftExample */;
+			targetProxy = 38CA51511CA187A000C3EFC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38CA51381CA187A000C3EFC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CA51391CA187A000C3EFC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38CA513D1CA187A000C3EFC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CA513E1CA187A000C3EFC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38CA51571CA187A000C3EFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38CA51581CA187A000C3EFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38CA515A1CA187A000C3EFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LopWiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.antinomy.LopWiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38CA515B1CA187A000C3EFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LopWiftExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.antinomy.LopWiftExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38CA515D1CA187A000C3EFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LopWiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.antinomy.LopWiftExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LopWiftExample.app/LopWiftExample";
+			};
+			name = Debug;
+		};
+		38CA515E1CA187A000C3EFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LopWiftExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.antinomy.LopWiftExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LopWiftExample.app/LopWiftExample";
+			};
+			name = Release;
+		};
+		38CA51601CA187A000C3EFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LopWiftExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.antinomy.LopWiftExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LopWiftExample;
+			};
+			name = Debug;
+		};
+		38CA51611CA187A000C3EFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LopWiftExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.antinomy.LopWiftExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LopWiftExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38CA512C1CA187A000C3EFC3 /* Build configuration list for PBXProject "LopWiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CA51571CA187A000C3EFC3 /* Debug */,
+				38CA51581CA187A000C3EFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CA51591CA187A000C3EFC3 /* Build configuration list for PBXNativeTarget "LopWiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CA515A1CA187A000C3EFC3 /* Debug */,
+				38CA515B1CA187A000C3EFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38CA515C1CA187A000C3EFC3 /* Build configuration list for PBXNativeTarget "LopWiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CA515D1CA187A000C3EFC3 /* Debug */,
+				38CA515E1CA187A000C3EFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38CA515F1CA187A000C3EFC3 /* Build configuration list for PBXNativeTarget "LopWiftExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CA51601CA187A000C3EFC3 /* Debug */,
+				38CA51611CA187A000C3EFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38CA51291CA187A000C3EFC3 /* Project object */;
+}
