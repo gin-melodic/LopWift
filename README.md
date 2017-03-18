@@ -1,9 +1,9 @@
 # LopWift
 This project collect some code snap when I learn swift.
 ## Model & Trace
-- **Associated Warp** *( Dev Done )*
+- <del>**Associated Warp**</del> *( Deprecated, please use `Storyboard Reference` moudle. )*
 
-    Make associated support optional stored property and weak stored property.
+    <del>Make associated support optional stored property and weak stored property.</del>
     
 - **MVVM-Protocol-Oriented** *( In Dev )*
 
