@@ -26,18 +26,18 @@ class WeakContainerClass: NSObject {
 
 /// A NSValue operation make Associated support optional value
 public final class Associated<T>: NSObject, NSCopying {
-  public typealias Type = T
+  public typealias `Type` = T
   public let value: Type
   
   public init(_ value: Type) { self.value = value }
   
-  public func copyWithZone(zone: NSZone) -> AnyObject {
-    return self.dynamicType.init(value)
+  public func copy(with zone: NSZone?) -> Any {
+    return type(of: self).init(value)
   }
 }
 
 extension Associated where T: NSCopying {
-  public func copyWithZone(zone: NSZone) -> AnyObject {
-    return self.dynamicType.init(value.copyWithZone(zone) as! Type)
+  public func copyWithZone(_ zone: NSZone?) -> AnyObject {
+    return type(of: self).init(value.copy(with: zone) as! Type)
   }
 }
